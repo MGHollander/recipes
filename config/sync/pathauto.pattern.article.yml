@@ -1,0 +1,33 @@
+uuid: aa29a899-6d36-48fd-a354-8465cd5ead58
+langcode: nl
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: article
+label: Article
+type: 'canonical_entities:node'
+pattern: 'artikel/[node:title]'
+selection_criteria:
+  d8b99309-b521-4a28-b6f3-729bc200540b:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: node
+    uuid: d8b99309-b521-4a28-b6f3-729bc200540b
+  8f96f96f-466b-469e-8936-24ec34fc1c86:
+    id: language
+    langcodes:
+      en: en
+    negate: false
+    context_mapping:
+      language: 'node:langcode:language'
+    uuid: 8f96f96f-466b-469e-8936-24ec34fc1c86
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Taal
