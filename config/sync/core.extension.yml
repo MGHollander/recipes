@@ -17,7 +17,6 @@ module:
   datetime: 0
   dblog: 0
   demo_umami_content: 0
-  devel: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
@@ -31,6 +30,7 @@ module:
   layout_builder: 0
   layout_discovery: 0
   link: 0
+  linkit: 0
   locale: 0
   media: 0
   media_library: 0

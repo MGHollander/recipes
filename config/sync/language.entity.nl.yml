@@ -1,9 +1,9 @@
-uuid: a80c854f-fe53-438c-84f5-39db5a08a37d
+uuid: 45a748b3-5c63-40d8-a3e7-3cb5e98cba6b
 langcode: nl
 status: true
 dependencies: {  }
 id: nl
-label: Nederlands
+label: Dutch
 direction: ltr
 weight: 0
 locked: false

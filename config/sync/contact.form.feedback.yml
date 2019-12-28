@@ -1,4 +1,4 @@
-uuid: 4fa3fc38-41dd-4d58-862e-07904ca3f243
+uuid: 9a2a24af-2270-4914-aec1-e97f14d9f073
 langcode: nl
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: Website-feedback
 recipients:
-  - admin@recepten.valet
+  - marchollander@gmail.com
 reply: ''
 weight: 0
 message: 'Uw bericht is verzonden.'

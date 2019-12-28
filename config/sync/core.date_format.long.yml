@@ -1,4 +1,4 @@
-uuid: f8e1da24-9f8a-4a2d-98b0-8624eb6a9fb2
+uuid: cb0fdf91-b188-40fd-8165-e0e1d2803298
 langcode: nl
 status: true
 dependencies: {  }
@@ -7,4 +7,4 @@ _core:
 id: long
 label: 'Standaarddatum - lang'
 locked: false
-pattern: 'l j F Y - H:i'
+pattern: 'l, F j, Y - H:i'

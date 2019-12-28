@@ -1,0 +1,11 @@
+uuid: c14a4310-5115-4c3a-b5e8-6a187f560f7c
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: zMB9ry6srBzolYME_HGgBkzGve1qBlnsQ8C3wT6CQxs
+id: es
+label: Spaans
+direction: ltr
+weight: 1
+locked: false

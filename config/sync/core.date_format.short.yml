@@ -1,4 +1,4 @@
-uuid: 6363f0c9-49b8-4f1d-ae62-601cff1ab33d
+uuid: 39010ff6-04cf-42cf-af79-87cf483bbbde
 langcode: nl
 status: true
 dependencies: {  }
@@ -7,4 +7,4 @@ _core:
 id: short
 label: 'Standaarddatum - kort'
 locked: false
-pattern: 'd/m/Y - H:i'
+pattern: 'm/d/Y - H:i'

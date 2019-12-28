@@ -1,4 +1,4 @@
-uuid: 4ba5409b-8c15-4b72-8ada-4996417b6f8e
+uuid: 4aa5d2d9-00ad-4b5a-9ffe-0aa02c29bf27
 langcode: nl
 status: true
 dependencies: {  }
@@ -7,4 +7,4 @@ _core:
 id: medium
 label: 'Standaarddatum - middel'
 locked: false
-pattern: 'D d/m/Y - H:i'
+pattern: 'D, m/d/Y - H:i'

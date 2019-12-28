@@ -4,9 +4,11 @@ url:
   source: path_prefix
   prefixes:
     en: en
+    es: es
     nl: ''
   domains:
     en: ''
+    es: ''
     nl: ''
 selected_langcode: site_default
 _core:
