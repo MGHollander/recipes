@@ -1,0 +1,78 @@
+uuid: 0b96b350-9051-448a-8c9c-d03aa73a1883
+langcode: nl
+status: true
+dependencies:
+  module:
+    - demo_umami
+_core:
+  default_config_hash: z8nqA01szKyOwLvEHtB4UggnrwZnENv18_kj_xLA04g
+id: umami-front
+label: Voorpagina
+module: demo_umami
+routes:
+  -
+    route_name: view.frontpage.page_1
+tips:
+  welcome:
+    id: welcome
+    plugin: text
+    label: 'Welkom bij de Umami Drupal-demo'
+    body: 'Drupal is een krachtig open source content management system. Deze demo, gebaseerd op een fictief voedsel-magazine genaamd Umami, demonstreert diverse concepten en mogelijkheden van Drupal.'
+    weight: 1
+  out-of-the-box:
+    id: out-of-the-box
+    plugin: text
+    label: 'Drupals basisfuncties'
+    body: 'Veel functionaliteiten die u nodig heeft zitten standaard al in Drupal. Alles in deze demo is gebaseerd op deze standaardfunctionaliteit van Drupal 8.'
+    weight: 2
+  navigation:
+    id: navigation
+    plugin: text
+    label: Navigatie
+    body: 'Dit is het hoofdmenu voor de Umami-website. Het is eenvoudig alle menu''s die u nodig hebt aan te maken en te beheren. Deze site heeft bijvoorbeeld een hoofdnavigatie, maar ook een gebruikersnavigatie.'
+    weight: 3
+    location: left
+    attributes:
+      data-class: menu-main__link.is-active
+  umami-theme:
+    id: umami-theme
+    plugin: text
+    label: 'Het Umami-thema'
+    body: 'Deze site gebruikt het Umami-thema. Dit thema gebruikt CSS en aangepaste HTML-templates die gemaakt zijn met het populaire templatesysteem Twig. Het is mogelijk aanvullende thema''s te downloaden en installeren.'
+    weight: 4
+    location: right
+    attributes:
+      data-class: 'block-type-banner-block .summary'
+  managing-content:
+    id: managing-content
+    plugin: text
+    label: 'Inhoud beheren'
+    body: 'Deze voorbeeldsite bevat een verzameling artikelen en recepten om te demonstreren hoe inhoud eenvoudig beheerd kan worden op een flexibele en gestructureerde manier.'
+    weight: 5
+    location: right
+    attributes:
+      data-class: 'view-promoted-items--single .read-more__link'
+  umami-front-views:
+    id: umami-front-content
+    plugin: text
+    label: 'De weergave van inhoud instellen'
+    body: 'Met weergavemodi kan inhoud op verschillende manieren gepresenteerd worden. Deze aangeraden artikelen en recepten gebruiken weergavemodi om de afbeeldingen in verschillende verhoudingen weer te geven.'
+    weight: 6
+    location: left
+    attributes:
+      data-class: 'view-promoted-items--double .node:nth-child(1)'
+  umami-views:
+    id: umami-views
+    plugin: text
+    label: 'Inhoud weergeven met Overzichten'
+    body: 'Het is in Drupal eenvoudig om lijsten met inhoud te maken, en in te stellen hoe deze weergegeven worden, met de Overzichten-functionaliteit. Dit laatste voorbeeld gebruikt een overzicht om de vier meest recente recepten te selecteren, en ze weer te geven in een blok op de voorpagina.'
+    weight: 7
+    location: right
+    attributes:
+      data-class: 'view-frontpage .node:nth-child(1)'
+  front-bookend:
+    id: front-bookend
+    plugin: text
+    label: 'Blijf Drupal verkennen'
+    body: 'De rondleiding over de voorpagina is voltooid. Aarzel niet om rond te klikken en Drupal verder te verkennen.'
+    weight: 8

@@ -1,0 +1,10 @@
+uuid: 590726f2-b4f1-4f5f-aaf4-c9feb452ec27
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wm3zsxqjVUNldWJhh-FumMfn2duT5EdGZstKm92JNak
+name: Receptcategorie
+vid: recipe_category
+description: 'Gebruik deze woordenlijst om recepten van hetzelfde type te groeperen.'
+weight: 0

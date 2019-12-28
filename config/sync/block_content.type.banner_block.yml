@@ -1,0 +1,10 @@
+uuid: c49fe78d-a81e-4e22-b9e9-50b066dfb8d5
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 700UcZMAoqwXOP20vQ4DE5Yt7pnZ2niqBFBLHWOsTws
+id: banner_block
+label: Banner-blok
+revision: 0
+description: 'Een banner-blok bevat een titel, samenvatting, link naar de inhoud en achtergrond afbeelding. De achtergrond afbeelding wordt geschaald naar de breedte van de browser.'

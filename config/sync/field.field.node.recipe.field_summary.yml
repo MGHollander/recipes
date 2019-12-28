@@ -1,0 +1,23 @@
+uuid: e6f4d8fc-61e2-42fc-8b79-9ce05eeeb0c1
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_summary
+    - node.type.recipe
+  module:
+    - text
+_core:
+  default_config_hash: E1ed_VCnnh6Q8TKaBaMx7T7WfRr0xTg19eccOk92Bew
+id: node.recipe.field_summary
+field_name: field_summary
+entity_type: node
+bundle: recipe
+label: Samenvatting
+description: 'Geef een kort overzicht van dit recept.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

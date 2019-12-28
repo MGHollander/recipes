@@ -1,0 +1,20 @@
+uuid: 16633641-d095-4442-bf76-f3ad7b8fe610
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.recipe
+_core:
+  default_config_hash: L5GWNOB-GmrakzgU30NW9tGi0jhU2Pry8ur3YjTkhoo
+id: node.recipe.title
+field_name: title
+entity_type: node
+bundle: recipe
+label: Receptnaam
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

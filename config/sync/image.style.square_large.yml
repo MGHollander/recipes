@@ -1,0 +1,17 @@
+uuid: 4e900f41-f1c2-4c77-94e5-d3f9a2a13733
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3WSo0sWyGjh_3bYfWo3fMrmTascHbTzWwZAv7XHMIWI
+name: square_large
+label: 'Groot vierkant'
+effects:
+  c7627da6-934e-47e2-a795-f10a424bda34:
+    uuid: c7627da6-934e-47e2-a795-f10a424bda34
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      anchor: center-center
+      width: 900
+      height: 900

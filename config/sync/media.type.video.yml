@@ -1,0 +1,16 @@
+uuid: 9ae15a31-ff2e-4e99-8ed5-5ad5358b3ca3
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hzgvcRgZHltqWf8hBmttoWh95tCJoPL25lPq9YSIRsY
+id: video
+label: Video
+description: 'Een videobestand gehost op deze website.'
+source: video_file
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_video_file
+field_map:
+  name: name
