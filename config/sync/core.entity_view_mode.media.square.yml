@@ -1,0 +1,12 @@
+uuid: cb3b29b9-4398-42ce-bd5b-5c749aafa32a
+langcode: nl
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: jhFdVZaHLJb5b_ZoaAjYGuBZYVoeK6IZG5x3afIT1vI
+id: media.square
+label: Vierkant
+targetEntityType: media
+cache: true

@@ -1,0 +1,71 @@
+uuid: bb72fc94-6776-4df1-acc9-c92e56f1ade9
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.page
+    - node.type.recipe
+  module:
+    - content_moderation
+_core:
+  default_config_hash: 5JoZm8I35WErhx6o0nyhs-bAjerN8GoyKibXHKCs9Oc
+id: editorial
+label: Redactioneel
+type: content_moderation
+type_settings:
+  states:
+    archived:
+      label: Gearchiveerd
+      weight: 5
+      published: false
+      default_revision: true
+    draft:
+      label: Concept
+      published: false
+      default_revision: false
+      weight: -5
+    published:
+      label: Gepubliceerd
+      published: true
+      default_revision: true
+      weight: 0
+  transitions:
+    archive:
+      label: Archiveren
+      from:
+        - published
+      to: archived
+      weight: 2
+    archived_draft:
+      label: 'Herstellen naar Concept'
+      from:
+        - archived
+      to: draft
+      weight: 3
+    archived_published:
+      label: Herstellen
+      from:
+        - archived
+      to: published
+      weight: 4
+    create_new_draft:
+      label: 'Nieuw concept maken'
+      to: draft
+      weight: 0
+      from:
+        - draft
+        - published
+    publish:
+      label: Publiceren
+      to: published
+      weight: 1
+      from:
+        - draft
+        - published
+  entity_types:
+    node:
+      - article
+      - page
+      - recipe
+  default_moderation_state: draft

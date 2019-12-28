@@ -1,0 +1,12 @@
+uuid: 37ecb26f-d00d-4fe6-a25c-d92db5f0d3d7
+langcode: nl
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: B_sFTb1IDrYepEpv0JbwaccNjBlIQFiG12gZaheHge4
+id: media.scale_crop_7_3_large
+label: 'Schalen en uitsnijden 7:3 groot'
+targetEntityType: media
+cache: true

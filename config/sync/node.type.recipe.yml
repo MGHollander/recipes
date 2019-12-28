@@ -1,0 +1,19 @@
+uuid: 727043ed-8185-4920-966c-408c6c713d0e
+langcode: nl
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: '-3P1yuM15pcimXHBBhevjW-4aqojpmZbUgAqlVIeweo'
+name: Recept
+type: recipe
+description: 'Een nieuw recept toe aan de site toevoegen.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

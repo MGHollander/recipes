@@ -1,0 +1,22 @@
+uuid: d4cfba07-ba21-4e44-9467-f49e708f576f
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - umami
+_core:
+  default_config_hash: fAAou3IaVWP7gVizy4k7aJ4njwWF5WnTnCVW68duc6Q
+id: umami_content
+theme: umami
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Primaire inhoud van de pagina'
+  provider: system
+  label_display: '0'
+visibility: {  }

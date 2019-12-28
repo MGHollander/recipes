@@ -1,0 +1,10 @@
+uuid: ca896b5b-a85b-40f8-901c-f85fa6f372b4
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1OCKdTtMY6QI5-V9y-phCzW_SEM6FDLAiHx1yh4song
+id: footer_promo_block
+label: 'Footer promo-blok'
+revision: 0
+description: 'Een footer promo-blok bevat een titel, promo-tekst en een ''Meer informatie''-link.'

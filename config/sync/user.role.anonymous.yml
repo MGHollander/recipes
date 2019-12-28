@@ -1,0 +1,16 @@
+uuid: f2af3c60-9047-4de8-b9ba-cf63f7771889
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Qf1B6Oytv6SDX58ba6IfUBGsq76oCUzu5Mpp9fevDJw
+id: anonymous
+label: 'Anonieme gebruiker'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view media'

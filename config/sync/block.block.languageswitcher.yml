@@ -1,0 +1,22 @@
+uuid: a72eb980-b1ed-428c-be87-e5b757d04f3a
+langcode: nl
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - umami
+_core:
+  default_config_hash: DqYisvDJbN_j5fWBCF6RVDYi5ZV62Yy8DABdtvRigME
+id: languageswitcher
+theme: umami
+region: pre_header
+weight: 0
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: Taalkeuze
+  provider: language
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,17 @@
+uuid: 5083e738-d5b2-4b81-98f4-1189d95f1154
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: HHCUC9JJYme7-z5OOhq7kR_6bOLyk5TP0oxYYseYFIQ
+name: square_small
+label: 'Klein vierkant'
+effects:
+  6c19e3f2-f291-4824-bc17-e485a979502c:
+    uuid: 6c19e3f2-f291-4824-bc17-e485a979502c
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      anchor: center-center
+      width: 300
+      height: 300
