@@ -11,7 +11,7 @@ id: node.recipe.field_preparation_time
 field_name: field_preparation_time
 entity_type: node
 bundle: recipe
-label: Bereidingstijd
+label: Voorbereidingstijd
 description: ''
 required: true
 translatable: false
