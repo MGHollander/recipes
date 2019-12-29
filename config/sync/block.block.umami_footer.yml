@@ -20,8 +20,13 @@ settings:
   id: 'system_menu_block:footer'
   label: 'Vertel ons wat u vindt'
   provider: system
-  label_display: '1'
+  label_display: '0'
   level: 1
   depth: 0
   expand_all_items: false
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '*'
+    negate: true
+    context_mapping: {  }
