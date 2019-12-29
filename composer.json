@@ -22,7 +22,8 @@
         "drupal/core-recommended": "^8.8",
         "drupal/devel": "^2.1",
         "drupal/linkit": "^4.3",
-        "drupal/pathauto": "^1.6"
+        "drupal/pathauto": "^1.6",
+        "drush/drush": "^10.1"
     },
     "require-dev": {
     },
