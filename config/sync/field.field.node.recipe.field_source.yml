@@ -1,0 +1,21 @@
+uuid: 2b2a31f8-f3d7-4ab5-833c-27bc9fb4ef91
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_source
+    - node.type.recipe
+  module:
+    - text
+id: node.recipe.field_source
+field_name: field_source
+entity_type: node
+bundle: recipe
+label: Bron
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

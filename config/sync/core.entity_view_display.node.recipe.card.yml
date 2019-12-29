@@ -12,6 +12,7 @@ dependencies:
     - field.field.node.recipe.field_preparation_time
     - field.field.node.recipe.field_recipe_category
     - field.field.node.recipe.field_recipe_instruction
+    - field.field.node.recipe.field_source
     - field.field.node.recipe.field_summary
     - field.field.node.recipe.field_tags
     - field.field.node.recipe.layout_builder__layout
@@ -50,6 +51,7 @@ hidden:
   field_preparation_time: true
   field_recipe_category: true
   field_recipe_instruction: true
+  field_source: true
   field_summary: true
   field_tags: true
   langcode: true
