@@ -1,31 +1,31 @@
-uuid: 649880cf-bd54-4031-adb6-644f3cbcd02d
+uuid: 50405c92-75f5-4ea4-b573-200c7c14e8d4
 langcode: nl
 status: true
 dependencies:
   module:
     - language
     - node
-id: pathauto_pattern_recipe_dutch
-label: 'Recipe (Dutch)'
+id: pathauto_pattern_recipes_dutch
+label: 'Recipes (Dutch)'
 type: 'canonical_entities:node'
-pattern: '/recept/[node:title]'
+pattern: '/recepten/[node:title]'
 selection_criteria:
-  dfdf1dc9-bef6-4214-b329-6bdb844d3816:
+  7c0c93e2-c8b8-4dbc-ba46-153ed5894308:
     id: node_type
     bundles:
       recipe: recipe
     negate: false
     context_mapping:
       node: node
-    uuid: dfdf1dc9-bef6-4214-b329-6bdb844d3816
-  5c0994a2-be33-43f8-b303-5941d9e3dd88:
+    uuid: 7c0c93e2-c8b8-4dbc-ba46-153ed5894308
+  9f3ef368-2baa-44c3-9195-e8dabd6a9600:
     id: language
     langcodes:
       nl: nl
     negate: false
     context_mapping:
       language: 'node:langcode:language'
-    uuid: 5c0994a2-be33-43f8-b303-5941d9e3dd88
+    uuid: 9f3ef368-2baa-44c3-9195-e8dabd6a9600
 selection_logic: and
 weight: -10
 relationships:
