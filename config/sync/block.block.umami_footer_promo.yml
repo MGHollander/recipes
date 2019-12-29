@@ -9,6 +9,7 @@ dependencies:
       - demo_umami_content
   module:
     - block_content
+    - system
   theme:
     - umami
 _core:
@@ -27,4 +28,9 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '*'
+    negate: true
+    context_mapping: {  }
