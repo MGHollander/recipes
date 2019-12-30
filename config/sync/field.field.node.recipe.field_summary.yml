@@ -15,7 +15,7 @@ entity_type: node
 bundle: recipe
 label: Samenvatting
 description: 'Geef een kort overzicht van dit recept.'
-required: true
+required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''
