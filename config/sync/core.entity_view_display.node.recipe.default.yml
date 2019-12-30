@@ -95,7 +95,7 @@ content:
     region: content
   field_source:
     weight: 12
-    label: inline
+    label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default

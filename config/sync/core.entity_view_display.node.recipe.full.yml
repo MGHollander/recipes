@@ -228,12 +228,12 @@ third_party_settings:
                 type: text_default
             additional: {  }
             weight: 0
-          84c6883b-6255-43a4-a11d-3bb0f4fb0179:
-            uuid: 84c6883b-6255-43a4-a11d-3bb0f4fb0179
+          77888a47-60fd-470e-ae37-d3f9369393f6:
+            uuid: 77888a47-60fd-470e-ae37-d3f9369393f6
             region: second
             configuration:
               id: 'field_block:node:recipe:field_source'
-              label: Source
+              label: Bron
               provider: layout_builder
               label_display: '0'
               formatter:
